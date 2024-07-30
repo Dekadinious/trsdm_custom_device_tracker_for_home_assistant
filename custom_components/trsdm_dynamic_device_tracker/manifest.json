@@ -4,10 +4,8 @@
   "config_flow": true,
   "documentation": "https://github.com/Dekadinious/trsdm_custom_device_tracker_for_home_assistant",
   "requirements": [],
-  "ssdp": [],
-  "zeroconf": [],
-  "homekit": {},
   "dependencies": ["webhook"],
   "codeowners": ["@dekadinious"],
-  "version": "0.1.0"
+  "iot_class": "cloud_push",
+  "version": "1.0.0"
 }
