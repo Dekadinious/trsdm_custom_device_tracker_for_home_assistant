@@ -37,11 +37,11 @@ Send a POST request to the webhook URL with JSON data. The only required fields 
 
 Example using curl:
 
-[CODE]
+```
 curl -X POST https://your-home-assistant-url/api/webhook/your-webhook-id \
  -H "Content-Type: application/json" \
  -d '{"latitude": 37.7749, "longitude": -122.4194, "speed": 30, "battery": 75}'
-[/CODE]
+```
 
 You can include any additional data you want as custom attributes.
 

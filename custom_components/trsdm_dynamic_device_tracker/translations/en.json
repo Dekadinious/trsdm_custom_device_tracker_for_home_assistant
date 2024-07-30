@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up TRSDM Dynamic Device Tracker",
+        "description": "Enter a name for this device tracker",
+        "data": {
+          "device_name": "Device Name"
+        }
+      },
+      "webhook_info": {
+        "title": "Webhook Information",
+        "description": "{description}"
+      }
+    },
+    "abort": {
+      "already_configured": "This device tracker is already configured.",
+      "configuration_error": "An error occurred during configuration. Please try again."
+    },
+    "create_entry": {
+      "default": "Successfully set up TRSDM Dynamic Device Tracker."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "TRSDM Dynamic Device Tracker Configuration",
+        "description": "{description}\n\nSelect attributes to delete:",
+        "data": {
+          "delete_attributes": "Attributes to delete"
+        }
+      },
+      "delete_confirm": {
+        "title": "Confirm Attribute Deletion",
+        "description": "Are you sure you want to delete the following attributes: {attributes}?"
+      }
+    }
+  }
+}
