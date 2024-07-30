@@ -1,11 +1,11 @@
 {
-  "domain": "trsdm_dynamic_device_tracker",
-  "name": "TRSDM Dynamic Device Tracker",
-  "config_flow": true,
-  "documentation": "https://github.com/Dekadinious/trsdm_custom_device_tracker_for_home_assistant",
-  "requirements": [],
-  "dependencies": ["webhook"],
-  "codeowners": ["@dekadinious"],
-  "iot_class": "cloud_push",
-  "version": "1.0.0"
+	"domain": "trsdm_dynamic_device_tracker",
+	"name": "TRSDM Dynamic Device Tracker",
+	"codeowners": ["@dekadinious"],
+	"config_flow": true,
+	"dependencies": ["webhook"],
+	"documentation": "https://github.com/Dekadinious/trsdm_custom_device_tracker_for_home_assistant",
+	"iot_class": "cloud_push",
+	"requirements": [],
+	"version": "1.0.0"
 }

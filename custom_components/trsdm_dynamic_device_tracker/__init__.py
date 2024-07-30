@@ -1,5 +1,6 @@
 import logging
-from homeassistant.config_entries import ConfigEntry
+from homeassistant.const import CONF_PLATFORM
+from homeassistant.helpers import config_validation as cv
 from homeassistant.core import HomeAssistant
 from homeassistant.components import webhook
 from homeassistant.helpers.dispatcher import async_dispatcher_send
@@ -8,6 +9,8 @@ from aiohttp import web
 from .const import DOMAIN, WEBHOOK_ENDPOINT, CONF_DEVICE_NAME
 
 _LOGGER = logging.getLogger(__name__)
+
+CONFIG_SCHEMA = cv.empty_config_schema(DOMAIN)
 
 async def async_setup(hass: HomeAssistant, config: dict) -> bool:
     """Set up the TRSDM Dynamic Device Tracker component."""
