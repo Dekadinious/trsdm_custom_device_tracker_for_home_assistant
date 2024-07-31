@@ -57,7 +57,7 @@ You can include any additional data you want as custom attributes.
 -   Direction relative to home (towards, away_from, stationary)
 -   Cardinal direction from home (N, NE, E, SE, S, SW, W, NW)
 -   Last updated timestamp
--   Elapsed time since last significant location change (10 meters cumulative)
+-   Time of last significant location change (10 meters cumulative)
 
 ### Managing Trackers and Attributes
 
