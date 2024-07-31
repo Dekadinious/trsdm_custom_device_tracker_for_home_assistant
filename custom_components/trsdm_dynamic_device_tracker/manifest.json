@@ -8,5 +8,5 @@
 	"iot_class": "cloud_push",
 	"issue_tracker": "https://github.com/Dekadinious/trsdm_custom_device_tracker_for_home_assistant/issues",
 	"requirements": [],
-	"version": "1.0.0"
+	"version": "1.0.1"
 }

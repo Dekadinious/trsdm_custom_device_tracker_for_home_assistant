@@ -5,6 +5,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.components import webhook
 from homeassistant.helpers.dispatcher import async_dispatcher_send
 from aiohttp import web
+from homeassistant.config_entries import ConfigEntry
 
 from .const import DOMAIN, WEBHOOK_ENDPOINT, CONF_DEVICE_NAME
 
